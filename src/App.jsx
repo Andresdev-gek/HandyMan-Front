@@ -9,7 +9,7 @@ import CalculateHours from '../pages/CalculateHours'
 
 function App() {
 
-
+  //rutas de la app
   return (
     
     <BrowserRouter>
