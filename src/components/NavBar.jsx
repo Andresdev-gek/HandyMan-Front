@@ -2,6 +2,7 @@ import React from 'react'
 import { AppBar, Toolbar, Typography, makeStyles, IconButton, Box } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import { Link } from 'react-router-dom'
+import './styles/NavBar.css'
 
 const useStyles = makeStyles(theme => ({
     menuButton: {
@@ -36,7 +37,7 @@ const NavBar = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <Box p={2}>
-                    <img src="https://image.flaticon.com/icons/png/128/2482/2482415.png" alt="Logo"></img>
+                    <img className = "pequeña" src="https://image.flaticon.com/icons/png/128/2482/2482415.png" alt="Logo"></img>
 
                 </Box>
                 <Typography variant="h5" className={classes.title}>
