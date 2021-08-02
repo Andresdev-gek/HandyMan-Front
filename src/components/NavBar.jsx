@@ -36,7 +36,7 @@ const NavBar = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <Box p={2}>
-                    <img src="../../dist/assets/images/logo.png" alt="Logo"></img>
+                    <img src="https://www.flaticon.com/free-icon/plumber_2482415?term=technician&related_id=2482415" alt="Logo"></img>
 
                 </Box>
                 <Typography variant="h5" className={classes.title}>
