@@ -16,7 +16,7 @@ const BoxContent = () => {
 
                 <Grid item xs={5} >
                     <Box  >
-                        <img src="../../images/technician-Hand-1.png" alt="Logo-content"></img>
+                        <img src="../../dist/assets/images/technician-Hand-1.png" alt="Logo-content"></img>
                     </Box>
                 </Grid>
 

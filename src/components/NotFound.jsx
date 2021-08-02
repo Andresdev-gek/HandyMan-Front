@@ -14,7 +14,7 @@ const NotFound = () => {
 
                 <Grid item xs={5} >
                     <Box  >
-                        <img src="../../images/error-404.png" alt="404-not-found"></img>
+                        <img src="../../dist/assets/images/error-404.png" alt="404-not-found"></img>
                         <Typography variant="h2" >
                             Page not found 🤔
                         </Typography>

@@ -36,7 +36,7 @@ const NavBar = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <Box p={2}>
-                    <img src="../../images/logo.png" alt="Logo"></img>
+                    <img src="../../dist/assets/images/logo.png" alt="Logo"></img>
 
                 </Box>
                 <Typography variant="h5" className={classes.title}>
