@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Box, Grid } from '@material-ui/core'
+import './styles/BoxContent.css'
 
 
 const BoxContent = () => {
@@ -16,7 +17,7 @@ const BoxContent = () => {
 
                 <Grid item xs={5} >
                     <Box  >
-                        <img src="../../dist/assets/images/technician-Hand-1.png" alt="Logo-content"></img>
+                        <img className="mediana"src="https://image.flaticon.com/icons/png/512/1870/1870928.png" alt="Logo-content"></img>
                     </Box>
                 </Grid>
 
