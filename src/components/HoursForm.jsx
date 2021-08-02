@@ -28,8 +28,9 @@ const HoursForm = () => {
         onSubmit: async () => {
             await axios.get(baseUrl)
                 .then(response => {
-                    const array = response.data.items
+                    const array = response.data.calculo
                     setHours(array)
+                    console.log(array)
                     setNotify({ isOpen: true, message: "Horas acumuladas por esta semana", type: "success" })
                 }).catch(error => {
                     console.log(error)

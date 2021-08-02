@@ -14,9 +14,9 @@ import './styles/ReportsTable.css'
 const useStyles = makeStyles({
     table: {
         minWidth: 130,
-        minHeight: '15vh',
-        marginTop: '20vh',
-        padding: '8vh'
+        minHeight: '20vh',
+        marginTop: '4vh',
+        padding: '4vh'
         
 
     },
@@ -42,17 +42,15 @@ const HoursTable = (props) => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {props.data.map((row) => (
-                        <TableRow key={row.serviceId}>
-                            <TableCell align="right">{row.normalHours}</TableCell>
-                            <TableCell align="right">{row.nocturnalHours}</TableCell>
-                            <TableCell align="right">{row.dominicalHours}</TableCell>
-                            <TableCell align="right">{row.extraNormalHours}</TableCell>
-                            <TableCell align="right">{row.extraNocturnalHours}</TableCell>
-                            <TableCell align="right">{row.extraDominicalHours}</TableCell>
-                            <TableCell align="right">{row.totalHours}</TableCell>
+                        <TableRow key={props.data[0]}>
+                            <TableCell align="right">{props.data[0]}</TableCell>
+                            <TableCell align="right">{props.data[1]}</TableCell>
+                            <TableCell align="right">{props.data[2]}</TableCell>
+                            <TableCell align="right">{props.data[3]}</TableCell>
+                            <TableCell align="right">{props.data[4]}</TableCell>
+                            <TableCell align="right">{props.data[5]}</TableCell>
+                            <TableCell align="right">{props.data[6]}</TableCell>
                         </TableRow>
-                    ))}
                 </TableBody>
             </Table>
         </TableContainer>
