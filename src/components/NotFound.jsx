@@ -14,7 +14,7 @@ const NotFound = () => {
 
                 <Grid item xs={5} >
                     <Box  >
-                        <img src="../../dist/assets/images/error-404.png" alt="404-not-found"></img>
+                        <img className="grande" src="https://artofenergi.com/wp-content/uploads/2021/03/404-error.png" alt="404-not-found"></img>
                         <Typography variant="h2" >
                             Page not found 🤔
                         </Typography>
